@@ -1,7 +1,7 @@
 package com.projeto.bff_agendador.business.DTO;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.projeto.agendadortarefas.infrastructure.enums.StatusNotificacaoEnum;
+import com.projeto.bff_agendador.infrastructure.enums.StatusNotificacaoEnum;
 import lombok.*;
 
 import java.time.LocalDateTime;
