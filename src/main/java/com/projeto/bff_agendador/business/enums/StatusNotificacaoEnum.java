@@ -1,4 +1,4 @@
-package com.projeto.bff_agendador.infrastructure.enums;
+package com.projeto.bff_agendador.business.enums;
 
 public enum StatusNotificacaoEnum {
     PENDENTE,

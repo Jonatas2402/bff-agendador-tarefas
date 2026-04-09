@@ -4,7 +4,7 @@ package com.projeto.bff_agendador.business;
 import com.projeto.bff_agendador.business.DTO.in.TarefaDtoRequest;
 import com.projeto.bff_agendador.business.DTO.out.TarefaDtoResponse;
 import com.projeto.bff_agendador.infrastructure.client.TarefasClient;
-import com.projeto.bff_agendador.infrastructure.enums.StatusNotificacaoEnum;
+import com.projeto.bff_agendador.business.enums.StatusNotificacaoEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

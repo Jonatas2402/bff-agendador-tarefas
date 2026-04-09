@@ -2,7 +2,7 @@ package com.projeto.bff_agendador.infrastructure.client;
 
 import com.projeto.bff_agendador.business.DTO.in.TarefaDtoRequest;
 import com.projeto.bff_agendador.business.DTO.out.TarefaDtoResponse;
-import com.projeto.bff_agendador.infrastructure.enums.StatusNotificacaoEnum;
+import com.projeto.bff_agendador.business.enums.StatusNotificacaoEnum;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;

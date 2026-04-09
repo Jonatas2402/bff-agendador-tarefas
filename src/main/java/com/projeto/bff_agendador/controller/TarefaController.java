@@ -4,7 +4,7 @@ package com.projeto.bff_agendador.controller;
 import com.projeto.bff_agendador.business.DTO.in.TarefaDtoRequest;
 import com.projeto.bff_agendador.business.DTO.out.TarefaDtoResponse;
 import com.projeto.bff_agendador.business.TarefaService;
-import com.projeto.bff_agendador.infrastructure.enums.StatusNotificacaoEnum;
+import com.projeto.bff_agendador.business.enums.StatusNotificacaoEnum;
 import com.projeto.bff_agendador.infrastructure.security.SecurityConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
