@@ -1,4 +1,4 @@
-package com.projeto.bff_agendador.business.DTO;
+package com.projeto.bff_agendador.business.DTO.in;
 
 import lombok.*;
 
@@ -7,8 +7,8 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class EnderecoDTO {
-    private Long id;
+public class EnderecoDtoRequest {
+
     private String rua;
     private Long numero;
     private String cidade;

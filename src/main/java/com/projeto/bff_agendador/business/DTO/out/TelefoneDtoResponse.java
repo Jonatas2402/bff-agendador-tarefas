@@ -1,4 +1,4 @@
-package com.projeto.bff_agendador.business.DTO;
+package com.projeto.bff_agendador.business.DTO.out;
 
 import lombok.*;
 
@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class TelefoneDTO {
+public class TelefoneDtoResponse {
     private Long id;
     private String ddd;
     private String numero;
